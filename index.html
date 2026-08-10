@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punjab Trails | Discover Pakistan</title>
+  <meta name="description" content="Explore the heritage, culture, food and unforgettable journeys of Punjab, Pakistan.">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <span class="brand-script">Punjab</span>
+      <span class="brand-name">TRAILS</span>
+      <small>LIVE • EXPLORE • DISCOVER</small>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#journeys">JOURNEYS</a>
+      <a href="#stories">STORIES</a>
+      <a href="#destinations">DESTINATIONS</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">PAKISTAN TOURISM • PUNJAB</p>
+        <h1>Your Next<br><span>Adventure</span><br>Starts Here.</h1>
+        <p class="hero-text">
+          From royal forts and ancient cities to colorful bazaars and unforgettable food,
+          discover Punjab through journeys made for curious travelers.
+        </p>
+        <div class="hero-actions">
+          <a href="#journeys" class="btn btn-gold">EXPLORE TOURS <span>→</span></a>
+          <a href="#stories" class="story-link">▶ &nbsp; OUR STORIES</a>
+        </div>
+
+        <div class="stats">
+          <div><strong>20+</strong><span>DESTINATIONS</span></div>
+          <div><strong>80+</strong><span>TOUR EXPERIENCES</span></div>
+          <div><strong>10K+</strong><span>HAPPY TRAVELERS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey section-dark" id="journeys">
+      <div class="journey-copy">
+        <p class="script">The Journey</p>
+        <h2>Punjab<br><span>Never Ends</span></h2>
+        <p>
+          Walk through the streets of Lahore, feel history at Rohtas Fort,
+          discover the colors of Multan and taste the flavors that make Punjab unforgettable.
+        </p>
+        <a href="#destinations" class="outline-btn">VIEW DESTINATIONS →</a>
+      </div>
+
+      <div class="route-map">
+        <div class="map-label lahore">Lahore</div>
+        <div class="map-label multan">Multan</div>
+        <div class="map-label bahawalpur">Bahawalpur</div>
+        <div class="map-label rohtas">Rohtas Fort</div>
+        <div class="route-line route-one"></div>
+        <div class="route-line route-two"></div>
+        <div class="route-dot dot-1"></div>
+        <div class="route-dot dot-2"></div>
+        <div class="route-dot dot-3"></div>
+        <div class="route-dot dot-4"></div>
+        <div class="mini-photo photo-one"></div>
+        <div class="mini-photo photo-two"></div>
+        <div class="mini-photo photo-three"></div>
+        <span class="plane">✈</span>
+      </div>
+    </section>
+
+    <section class="section destinations" id="destinations">
+      <div class="section-heading">
+        <p class="script">Explore Pakistan</p>
+        <h2>Places Worth <span>Remembering</span></h2>
+        <p>Handpicked places across Punjab for history, culture, nature and food lovers.</p>
+      </div>
+
+      <div class="destination-grid">
+        <article class="destination-card card-lahore">
+          <div class="card-shade"></div>
+          <div class="card-content">
+            <span>01 • HERITAGE</span>
+            <h3>Lahore</h3>
+            <p>Fort, Badshahi Mosque, Walled City & legendary food streets.</p>
+            <a href="#contact">DISCOVER →</a>
+          </div>
+        </article>
+
+        <article class="destination-card card-multan">
+          <div class="card-shade"></div>
+          <div class="card-content">
+            <span>02 • CULTURE</span>
+            <h3>Multan</h3>
+            <p>Blue domes, Sufi shrines, old bazaars and timeless crafts.</p>
+            <a href="#contact">DISCOVER →</a>
+          </div>
+        </article>
+
+        <article class="destination-card card-bahawalpur">
+          <div class="card-shade"></div>
+          <div class="card-content">
+            <span>03 • ROYAL</span>
+            <h3>Bahawalpur</h3>
+            <p>Noor Mahal, Derawar Fort and the magic of the Cholistan.</p>
+            <a href="#contact">DISCOVER →</a>
+          </div>
+        </article>
+
+        <article class="destination-card card-rohtas">
+          <div class="card-shade"></div>
+          <div class="card-content">
+            <span>04 • HISTORY</span>
+            <h3>Rohtas</h3>
+            <p>Walk along one of South Asia's most impressive historic forts.</p>
+            <a href="#contact">DISCOVER →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="stories section-dark" id="stories">
+      <div class="section-heading light">
+        <p class="script">Traveler Diaries</p>
+        <h2>Stories From <span>The Road</span></h2>
+        <p>Real moments from travelers exploring the heart of Punjab.</p>
+      </div>
+
+      <div class="story-grid">
+        <article class="story-card">
+          <div class="story-image story-one"></div>
+          <div class="paper">
+            <div class="quote">“</div>
+            <p>The old streets of Lahore made me feel like I had stepped into another century.</p>
+            <small>— Ayesha, Karachi</small>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <div class="story-image story-two"></div>
+          <div class="paper">
+            <div class="quote">“</div>
+            <p>Multan's blue domes, warm people and sunset light were unforgettable.</p>
+            <small>— Hamza, Islamabad</small>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <div class="story-image story-three"></div>
+          <div class="paper">
+            <div class="quote">“</div>
+            <p>Seeing Derawar Fort in the desert was one of my favorite Pakistan memories.</p>
+            <small>— Sarah, Lahore</small>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="plan" id="about">
+      <div class="plan-copy">
+        <p class="script">Plan Your Story</p>
+        <h2>Travel Better.<br><span>Remember More.</span></h2>
+        <p>
+          Carefully planned routes, local knowledge and flexible experiences
+          so you can enjoy Punjab without the stress.
+        </p>
+        <a href="#contact" class="btn btn-dark">START PLANNING →</a>
+      </div>
+
+      <div class="features">
+        <div><div class="feature-icon">✦</div><strong>LOCAL GUIDES</strong><span>People who know every story.</span></div>
+        <div><div class="feature-icon">⌁</div><strong>CURATED TOURS</strong><span>Routes designed with care.</span></div>
+        <div><div class="feature-icon">♧</div><strong>CULTURAL TRIPS</strong><span>Authentic local experiences.</span></div>
+        <div><div class="feature-icon">◉</div><strong>24/7 SUPPORT</strong><span>We're here when you need us.</span></div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div>
+        <p class="script">Collect Moments</p>
+        <h2>Not Things.</h2>
+      </div>
+      <div class="cta-center">
+        <p>Let's create stories across Punjab.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="Pinterest">p</a>
+        </div>
+        <small>© 2026 Punjab Trails. All rights reserved.</small>
+      </div>
+      <a href="mailto:hello@punjabtrails.com" class="contact-card">✈<span><small>PLAN A TRIP</small>Talk to a Travel Expert</span></a>
+    </section>
+  </main>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav').classList.toggle('open');
+    }
+    document.querySelectorAll('.nav a').forEach(link => {
+      link.addEventListener('click', () => document.getElementById('nav').classList.remove('open'));
+    });
+  </script>
+</body>
+</html>
